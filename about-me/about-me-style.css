@@ -1,0 +1,83 @@
+header {
+  text-align: right;
+  border: 3px double black;
+  padding: 10px;
+  background-color: lightsteelblue;
+  color: white;
+}
+
+header a {
+  margin: 15px;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  clear: both;
+  margin-bottom: 0;
+}
+
+.mainpage h2{
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0;
+  color: mediumslateblue;
+}
+
+.rightblock {
+  float: right;
+  margin: 0px 10px;
+}
+
+#titleblock {
+  width: 300px;
+  margin: 10px 0 0 0;
+  text-align: center;
+  background-color: CornflowerBlue;
+  color: white;
+  padding: 5px 0;
+}
+
+#middleblock {
+  width: 300px;
+  margin: 0;
+  text-align: center;
+  background-color: CornflowerBlue;
+  color: white;
+  padding: 3px 0;
+  font-size: 18px;
+}
+
+#imageblock {
+  width: 300px;
+  display: block;
+}
+
+#tableblock {
+  background-color: LightGrey;
+  width: 300px;
+  padding: 10px;
+}
+
+#tableblock tr td {
+  font-size: 14px;
+  padding: 5px;
+  vertical-align: top;
+}
+
+#tableblock tr td:first-child {
+  font-weight:bold;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 25px;
+  text-align: center;
+  border-top: 1px solid grey;
+}

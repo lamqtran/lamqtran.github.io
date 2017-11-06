@@ -1,0 +1,64 @@
+header {
+  text-align: right;
+  border: 3px double black;
+  padding: 10px;
+  background-color: lightsteelblue;
+  color: white;
+}
+
+header a {
+  margin: 15px;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  clear: both;
+  margin-bottom: 0;
+}
+
+.mainpage h2 {
+  clear: both;
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0;
+  color: darkred;
+}
+
+.mainpage .remove-margin {
+  margin: 0;
+}
+
+.mainpage video{
+  margin: 20px 10px;
+  border: 2px solid darkred;
+  float: right;
+  background-color: black;
+}
+
+.mainpage .scrollable {
+  height: 180px;
+  margin: 10px 5px;
+  padding: 0 5px;
+  overflow: auto;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.mainpage .scrollable img {
+  max-width: 100%;
+  pointer-events: none;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 25px;
+  text-align: center;
+  border-top: 1px solid grey;
+}

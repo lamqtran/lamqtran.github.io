@@ -1,0 +1,68 @@
+header .row{
+  display: flex;
+  align-items: center;
+}
+
+header h1{
+  font-weight: 700;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header a {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("background.jpg");
+  background-size: cover;
+  min-height: 300px;
+  border-top: 3px solid midnightblue;
+  border-bottom: 3px solid midnightblue;
+  text-shadow: 0.5px 0.5px 0.5px #000000;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.jumbotron h2 {
+  font-weight: 700;
+  font-size: 42px;
+  color: white;
+}
+
+.col-sm-4 h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-sm-4 img {
+  width: 100%;
+  background-size: cover;
+  border: 3px solid black;
+}
+
+.col-sm-6 h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-sm-6 img {
+  width: 100%;
+  background-size: cover;
+  border: 3px solid black;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 25px;
+  text-align: center;
+  border-top: 1px solid grey;
+}
